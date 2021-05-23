@@ -15,7 +15,8 @@ import org.springframework.context.annotation.Configuration;
  *
  */
 
-@Configuration(proxyBeanMethods = true) //告诉SpringBoot这是一个配置类
+//@Configuration(proxyBeanMethods = true) //告诉SpringBoot这是一个配置类
+@Configuration
 public class myConfig {
 
     @Bean("human01")//给容器添加组件，组件默认id为方法名,组件类型为返回类型
