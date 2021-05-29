@@ -18,5 +18,6 @@ public class MainApplication {
 
         Human human01 = run.getBean("human01", Human.class);
         System.out.println(human01.toString());
+        System.out.println("sadas");
     }
 }
