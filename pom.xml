@@ -6,7 +6,11 @@
 
     <groupId>com.sun</groupId>
     <artifactId>spring-boot-001</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>genrec_learn</module>
+    </modules>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
